@@ -15,6 +15,7 @@ p {
   overflow: hidden;
   position: fixed;
   background-color: #880604;
+  z-index: 30;
 }
 
 .logo {
@@ -112,7 +113,7 @@ a:hover {
   width: 100%;
   background-image: url("../imgs/team.png");
   background-size: cover;
-  height: 98%;
+  height: 110%;
   margin-top: 20px;
   margin-bottom: 20px;
   position: relative;
@@ -133,14 +134,14 @@ a:hover {
   position: absolute;
   left: 55%;
   top:40%;
-  color: #990604 ;
+  color: whitesmoke;
 }
 
 .hero_text_3 {
   position: absolute;
   left: 56%;
   top:70%;
-  color: #990604 ;
+  color: whitesmoke ;
   font-family: fantasy;
 }
 
@@ -230,6 +231,15 @@ a:hover {
   height: 40px;
 }
 
+.player_desc {
+  float: left;
+}
+
+.players h6 {
+  padding-left: 10px;
+  top: -10px;
+}
+
 .player_number {
   color: #b00100;
   padding-top: 1px;
@@ -243,7 +253,7 @@ a:hover {
 
 .players h5{
   width: 193.1spx;
-  padding-top: 4px;
+  padding-top: 20px;
   padding-left: 10px;
 }
 
