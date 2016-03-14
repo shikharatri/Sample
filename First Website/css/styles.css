@@ -77,6 +77,10 @@ a:hover {
   color: #dd0;
 }
 
+.sub_header {
+  padding-bottom: 20px;
+}
+
 .sub_header a{
   color: #bf0604;
   text-decoration: none;
@@ -104,21 +108,40 @@ a:hover {
   text-align: center;
 }
 
-.hero_element h1 {
-  text-align: center;
-}
-
 .hero_element_background {
   width: 100%;
-  background-image: image("C:/StackRoute-Vagrant-Node5-Mongo3.2/HTML/First Website/imgs/team.png");
+  background-image: url("../imgs/team.png");
+  background-size: cover;
+  height: 98%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   position: relative;
-  height: 70%;
 }
 
-.hero_text {
+.hero_element_background .container_12{
+  background-size: cover;
+}
+
+.hero_text_1 {
   position: absolute;
-  left: 40%;
-  top:20%;
+  left: 59%;
+  top:30%;
+  color: whitesmoke;
+}
+
+.hero_text_2 {
+  position: absolute;
+  left: 55%;
+  top:40%;
+  color: #990604 ;
+}
+
+.hero_text_3 {
+  position: absolute;
+  left: 56%;
+  top:70%;
+  color: #990604 ;
+  font-family: fantasy;
 }
 
 .legend_of_7_bg {
