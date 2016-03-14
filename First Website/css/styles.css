@@ -1,0 +1,260 @@
+body {
+  background: #fff;
+  color: #333;
+  height: auto;
+  width: 100%;
+}
+
+p {
+  font-family:fantasy;
+}
+
+.navigation_bar {
+  height:15%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  background-color: #880604;
+}
+
+.logo {
+  float: left;
+  align-items: center;
+  width: 50%;
+  vertical-align: middle;
+  padding-top: 16px;
+  color: #aaa;
+}
+
+.navigation_items {
+  float: right;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 19px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding-top: 33px;
+}
+
+.navigation_bar .logo img{
+  height: 66px;
+  width: 66px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+nav {
+  float: right;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+li {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navigation_bar a {
+  text-decoration: none;
+  text-align: center;
+  color: #aaa;
+  padding-top: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #dd0;
+}
+
+.sub_header a{
+  color: #bf0604;
+  text-decoration: none;
+  font-family:fantasy;
+}
+
+.sub_header a:hover{
+  color:#0f1c8f;
+}
+
+.sub_header h3{
+  font-family: 'Oswald', sans-serif;
+  padding-top: 10px;
+}
+
+.sub_header_images {
+  width:95%;
+  height: 300px;
+}
+
+.hero_element_description {
+  font-size: 19px;
+  font-weight:100;
+  color: #000;
+  text-align: center;
+}
+
+.hero_element h1 {
+  text-align: center;
+}
+
+.hero_element_background {
+  width: 100%;
+  background-image: image("C:/StackRoute-Vagrant-Node5-Mongo3.2/HTML/First Website/imgs/team.png");
+  position: relative;
+  height: 70%;
+}
+
+.hero_text {
+  position: absolute;
+  left: 40%;
+  top:20%;
+}
+
+.legend_of_7_bg {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  background-color: #f0f0f0;
+}
+
+.legend_7_img {
+  width: 100%;
+  height:300px;
+}
+
+.legend_7_text {
+  width:100%;
+}
+
+.legend_7_text a{
+  color: #bf0604;
+  text-decoration: none;
+}
+
+.legend_7_text a:hover{
+  color:#0f1c8f;
+}
+
+.legend_of_7{
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.munich{
+  padding-bottom: 30px;
+}
+
+.munich_bg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.munich_img{
+  width: 100%;
+  height: 280px;
+}
+
+.munich_text {
+  font-family:fantasy;
+}
+
+.munich_text a{
+  text-decoration: none;
+  color: #bf0604;
+  font-family:fantasy;
+}
+
+.munich_text a:hover{
+  color:#0f1c8f;
+}
+
+.social_media{
+  overflow: hidden;
+  padding-top: 15px;
+  height: 40px;
+  padding-bottom: 15px;
+}
+
+.social_media_icons{
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.footer_background{
+  bottom: 0px;
+  background-color: #880604;
+}
+
+.footer h3{
+  text-align: center;
+}
+
+.social_media img{
+  width:40;
+  height: 40px;
+}
+
+.player_number {
+  color: #b00100;
+  padding-top: 1px;
+  padding-right: 10px;
+  border-right: 0.5px solid #ddd;
+}
+
+.squad_title_header h1{
+  padding-top: 14px;
+}
+
+.players h5{
+  width: 193.1spx;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.players .grid_3 {
+  border-top: 3px solid #000;
+  align-items: center;
+}
+
+.players img{
+  width:100%;
+  height: 270px;
+}
+
+.players {
+  padding-bottom: 10px;
+}
+
+.info h3{
+  font-family: 'Oswald', sans-serif;
+  color: #aaa;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.info li{
+  text-align: left;
+  color: #bbb;
+}
+
+.sign_up a{
+  color: #aaa;
+  text-decoration: none;
+}
+
+.sign_up a:hover{
+  color:#dd0;
+}
