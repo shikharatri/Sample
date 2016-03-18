@@ -6,7 +6,7 @@ body {
 }
 
 p {
-  font-family:fantasy;
+  font-family:arial;
 }
 
 .navigation_bar {
@@ -85,7 +85,7 @@ a:hover {
 .sub_header a{
   color: #bf0604;
   text-decoration: none;
-  font-family:fantasy;
+  font-family:arial;
 }
 
 .sub_header a:hover{
@@ -142,7 +142,7 @@ a:hover {
   left: 56%;
   top:70%;
   color: whitesmoke ;
-  font-family: fantasy;
+  font-family: arial;
 }
 
 .legend_of_7_bg {
@@ -192,13 +192,13 @@ a:hover {
 }
 
 .munich_text {
-  font-family:fantasy;
+  font-family:arial;
 }
 
 .munich_text a{
   text-decoration: none;
   color: #bf0604;
-  font-family:fantasy;
+  font-family:arial;
 }
 
 .munich_text a:hover{
@@ -233,11 +233,16 @@ a:hover {
 
 .player_desc {
   float: left;
+  font-family: arial;
+}
+
+.players_desc h5,h6 {
+  margin: 0px;
+  padding: 0px;
 }
 
 .players h6 {
   padding-left: 10px;
-  top: -10px;
 }
 
 .player_number {
@@ -253,7 +258,7 @@ a:hover {
 
 .players h5{
   width: 193.1spx;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 10px;
 }
 
@@ -272,7 +277,7 @@ a:hover {
 }
 
 .info h3{
-  font-family: 'Oswald', sans-serif;
+  font-family: arial;
   color: #aaa;
   text-align: left;
   padding-left: 16px;
